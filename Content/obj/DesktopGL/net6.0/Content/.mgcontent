@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/Gebruiker/Downloads/IntroductionProjectQuanTemplate/IntroductionProject/YourGame/Content/Nintendo GBA Startup.wav</File>
+    <File>C:/Users/Gebruiker/Downloads/IntroductionProjectQuanTemplate/IntroductionProject/YourGame/Content/Pixel Art Top Down - Basic/TX Plant.png</File>
+    <File>C:/Users/Gebruiker/Downloads/IntroductionProjectQuanTemplate/IntroductionProject/YourGame/Content/Pixel Art Top Down - Basic/TX Player.png</File>
+    <File>C:/Users/Gebruiker/Downloads/IntroductionProjectQuanTemplate/IntroductionProject/YourGame/Content/Pixel Art Top Down - Basic/TX Props.png</File>
+    <File>C:/Users/Gebruiker/Downloads/IntroductionProjectQuanTemplate/IntroductionProject/YourGame/Content/Pixel Art Top Down - Basic/TX Shadow Plant.png</File>
+    <File>C:/Users/Gebruiker/Downloads/IntroductionProjectQuanTemplate/IntroductionProject/YourGame/Content/Pixel Art Top Down - Basic/TX Shadow.png</File>
+    <File>C:/Users/Gebruiker/Downloads/IntroductionProjectQuanTemplate/IntroductionProject/YourGame/Content/Pixel Art Top Down - Basic/TX Struct.png</File>
+    <File>C:/Users/Gebruiker/Downloads/IntroductionProjectQuanTemplate/IntroductionProject/YourGame/Content/Pixel Art Top Down - Basic/TX Tileset Grass.png</File>
+    <File>C:/Users/Gebruiker/Downloads/IntroductionProjectQuanTemplate/IntroductionProject/YourGame/Content/Pixel Art Top Down - Basic/TX Tileset Stone Ground.png</File>
+    <File>C:/Users/Gebruiker/Downloads/IntroductionProjectQuanTemplate/IntroductionProject/YourGame/Content/Pixel Art Top Down - Basic/TX Tileset Wall.png</File>
+    <File>C:/Users/Gebruiker/Downloads/IntroductionProjectQuanTemplate/IntroductionProject/YourGame/Content/quanlogo.png</File>
+    <File>C:/Users/Gebruiker/Downloads/IntroductionProjectQuanTemplate/IntroductionProject/YourGame/Content/SM64Birds.ogg</File>
+    <File>C:/Users/Gebruiker/Downloads/IntroductionProjectQuanTemplate/IntroductionProject/YourGame/Content/spr_wall_speed.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

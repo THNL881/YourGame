@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "YLnw0NZCwcjTR4l/a/mCOSXszb9Kd2rUHZAy2zqJwgtTWAcyPOK1tb9llSlatkNOIPufWg/NriCF83mOBMKbfw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Gebruiker\\Downloads\\IntroductionProjectQuanTemplate\\IntroductionProject\\YourGame\\YourGame.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gebruiker\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
+    "C:\\Users\\Gebruiker\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
+  ],
+  "logs": []
+}
