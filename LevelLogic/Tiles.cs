@@ -16,15 +16,18 @@ namespace YourGame.LevelLogic
         {
             Empty,
             Wall,
-            Platform
+            Platform,
+            Spike,
+            Elevator
         }
 
         Sprite image;
-        Type type;
-        Microsoft.Xna.Framework.Rectangle hitBox;
+        Type type; 
+        Texture2D texture;
+        public Microsoft.Xna.Framework.Rectangle hitBox;
+        private Microsoft.Xna.Framework.Point position;
 
        
-        Texture2D texture;
 
         public Tiles(Type type)
         {
@@ -41,7 +44,7 @@ namespace YourGame.LevelLogic
                 image = new Sprite(texture);
                 {
                     image.OriginType = OriginType.TopLeft;
-                    image.GlobalPosition = new Microsoft.Xna.Framework.Vector2(YourGame.ScreenSize.Y, 100);
+                    image.GlobalPosition = new Microsoft.Xna.Framework.Vector2(100, YourGame.ScreenSize.Y - texture.Height);
                 }
             } else if (type == Type.Wall)
             {
@@ -49,15 +52,29 @@ namespace YourGame.LevelLogic
                 image = new Sprite(texture);
                 {
                     image.OriginType = OriginType.BottomRight;
-                        
+                }
+            } else if (type == Type.Spike)
+            {
+                texture = YourGame.AssetManager.LoadTexture("spr_platform_hot");
+                image = new Sprite(texture);
+                {
+                    image.GlobalPosition = new Microsoft.Xna.Framework.Vector2(100, YourGame.ScreenSize.Y - texture.Height);
+                }
+            } else if (type == Type.Elevator)
+            {
+                texture = YourGame.AssetManager.LoadTexture("spr_wall");
+                image = new Sprite(texture);
+                {
+                    image.GlobalPosition = new Microsoft.Xna.Framework.Vector2(100, YourGame.ScreenSize.Y - texture.Height);
                 }
             }
 
-            this.hitBox = new Microsoft.Xna.Framework.Rectangle(new Microsoft.Xna.Framework.Point(YourGame.ScreenSize.Y, 100), new Microsoft.Xna.Framework.Point(texture.Height, texture.Width));
-            
+            position = new Microsoft.Xna.Framework.Point(100, YourGame.ScreenSize.Y - texture.Height);
 
-            
+            this.hitBox = new Microsoft.Xna.Framework.Rectangle(position, new Microsoft.Xna.Framework.Point(texture.Width, texture.Height));
         }
+
+        public Type TileType { get { return type; } }
 
         protected override void DrawSelf(SpriteBatch spriteBatch)
         {
@@ -65,6 +82,9 @@ namespace YourGame.LevelLogic
             {
                 image.Draw(spriteBatch);
             }
+            
         }
+
+       
     }
 }

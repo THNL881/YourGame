@@ -16,9 +16,15 @@
     <File>C:/Users/Gebruiker/Downloads/IntroductionProjectQuanTemplate/IntroductionProject/YourGame/Content/Pixel Art Top Down - Basic/TX Tileset Wall.png</File>
     <File>C:/Users/Gebruiker/Downloads/IntroductionProjectQuanTemplate/IntroductionProject/YourGame/Content/quanlogo.png</File>
     <File>C:/Users/Gebruiker/Downloads/IntroductionProjectQuanTemplate/IntroductionProject/YourGame/Content/SM64Birds.ogg</File>
+    <File>C:/Users/Gebruiker/Downloads/IntroductionProjectQuanTemplate/IntroductionProject/YourGame/Content/spr_platform_hot.png</File>
+    <File>C:/Users/Gebruiker/Downloads/IntroductionProjectQuanTemplate/IntroductionProject/YourGame/Content/spr_platform_ice.png</File>
     <File>C:/Users/Gebruiker/Downloads/IntroductionProjectQuanTemplate/IntroductionProject/YourGame/Content/spr_wall_speed.png</File>
+    <File>C:/Users/Gebruiker/Downloads/IntroductionProjectQuanTemplate/IntroductionProject/YourGame/Content/spr_wall.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

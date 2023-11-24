@@ -3,7 +3,7 @@
   <SourceFile>C:/Users/Gebruiker/Downloads/IntroductionProjectQuanTemplate/IntroductionProject/YourGame/Content/Nintendo GBA Startup.wav</SourceFile>
   <SourceTime>2023-11-15T01:56:34+01:00</SourceTime>
   <DestFile>C:/Users/Gebruiker/Downloads/IntroductionProjectQuanTemplate/IntroductionProject/YourGame/Content/bin/DesktopGL/Nintendo GBA Startup.xnb</DestFile>
-  <DestTime>2023-11-23T14:58:31.7486423+01:00</DestTime>
+  <DestTime>2023-11-24T05:46:51.193306+01:00</DestTime>
   <Importer>WavImporter</Importer>
   <ImporterTime>2022-07-26T13:44:56+02:00</ImporterTime>
   <Processor>SoundEffectProcessor</Processor>

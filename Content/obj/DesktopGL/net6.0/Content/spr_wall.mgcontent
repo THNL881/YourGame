@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/Gebruiker/Downloads/IntroductionProjectQuanTemplate/IntroductionProject/YourGame/Content/Pixel Art Top Down - Basic/TX Player.png</SourceFile>
-  <SourceTime>2023-11-13T03:26:40+01:00</SourceTime>
-  <DestFile>C:/Users/Gebruiker/Downloads/IntroductionProjectQuanTemplate/IntroductionProject/YourGame/Content/bin/DesktopGL/Pixel Art Top Down - Basic/TX Player.xnb</DestFile>
-  <DestTime>2023-11-24T05:46:51.2537227+01:00</DestTime>
+  <SourceFile>C:/Users/Gebruiker/Downloads/IntroductionProjectQuanTemplate/IntroductionProject/YourGame/Content/spr_wall.png</SourceFile>
+  <SourceTime>2022-10-10T09:27:08+02:00</SourceTime>
+  <DestFile>C:/Users/Gebruiker/Downloads/IntroductionProjectQuanTemplate/IntroductionProject/YourGame/Content/bin/DesktopGL/Content/spr_wall.xnb</DestFile>
+  <DestTime>2023-11-24T07:08:39.7042017+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T13:44:56+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

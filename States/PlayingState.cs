@@ -22,9 +22,11 @@ namespace YourGame.States
         {
             
             level = new Level();
-            player = new Player();
-            this.AddChild(level);
-            this.AddChild(player);
+            //player = new Player();
+            this.AddChild(this.level);
+           // this.AddChild(this.player);
+
+            
         }
 
         protected override void EnterSelf()
@@ -37,16 +39,6 @@ namespace YourGame.States
             base.UpdateSelf(gameTime);
             if (YourGame.InputManager.CheckIsKeyJustPressed(Keys.Space))
                 this.NextState = new DemoPlayerState();
-        }
-
-        private void HandleCollision()
-        {
-
-        }
-
-        private bool CollisionDetection()
-        {
-            return false;
         }
 
     }
